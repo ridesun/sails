@@ -45,6 +45,7 @@ gwasm-builder = { package = "gear-wasm-builder", version = "=1.4.2" }
 
 # Other deps in alphabetical order
 anyhow = "1"
+cargo-metadata = {package = "cargo_metadata",version = "0.18"}
 const-format = { package = "const_format", version = "0.2" }
 convert-case = { package = "convert_case", version = "0.6" }
 futures = { version = "0.3", default-features = false }
@@ -74,4 +75,3 @@ thiserror = "1.0"
 thiserror-no-std = "2.0"
 tokio = "1.39"
 trybuild = "1"
-cargo_metadata = "0.18"
